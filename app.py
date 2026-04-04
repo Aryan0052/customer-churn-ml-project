@@ -7,6 +7,7 @@ import streamlit as st
 
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_PATH = BASE_DIR / "outputs" / "models" / "logistic_regression_churn.pkl"
+DATA_PATH = BASE_DIR / "data" / "processed" / "cleaned_customer_churn.csv"
 
 
 def load_model():
@@ -17,12 +18,35 @@ def load_model():
     return joblib.load(MODEL_PATH)
 
 
+def load_dataset() -> pd.DataFrame | None:
+    if not DATA_PATH.exists():
+        return None
+    return pd.read_csv(DATA_PATH)
+
+
 def risk_tier(probability: float) -> tuple[str, str]:
     if probability >= 0.65:
         return "High Risk", "Likely to churn"
     if probability >= 0.40:
         return "Medium Risk", "Needs retention attention"
     return "Low Risk", "Likely to stay"
+
+
+def get_feature_importance(model) -> pd.DataFrame:
+    preprocessor = model.named_steps["preprocessor"]
+    classifier = model.named_steps["classifier"]
+    feature_names = preprocessor.get_feature_names_out()
+    coefficients = classifier.coef_[0]
+
+    importance_df = pd.DataFrame(
+        {
+            "feature": feature_names,
+            "coefficient": coefficients,
+            "impact": pd.Series(coefficients).abs(),
+        }
+    ).sort_values("impact", ascending=False)
+
+    return importance_df
 
 
 st.set_page_config(
@@ -311,6 +335,8 @@ st.markdown(
 )
 
 model = load_model()
+dataset = load_dataset()
+importance_df = get_feature_importance(model)
 
 st.markdown(
     """
@@ -358,134 +384,197 @@ with intro_right:
         "Best flow: complete the profile, run prediction, then use the probability and tier to suggest retention actions."
     )
 
-profile_col, services_col, billing_col = st.columns(3, gap="large")
+tab_dashboard, tab_predictor, tab_model = st.tabs(
+    ["Insights Dashboard", "Predict Customer", "Model Signals"]
+)
 
-with profile_col:
-    st.markdown(
-        """
-        <div class="section-card">
-            <h3>Customer Profile</h3>
-            <p>Basic demographics and relationship context that often shape churn behavior.</p>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-    gender = st.selectbox("Gender", ["Female", "Male"])
-    senior_citizen = st.selectbox("Senior Citizen", [0, 1], format_func=lambda x: "Yes" if x == 1 else "No")
-    partner = st.selectbox("Partner", ["Yes", "No"])
-    dependents = st.selectbox("Dependents", ["Yes", "No"])
-    tenure = st.slider("Tenure (months)", 0, 72, 12)
+with tab_dashboard:
+    st.subheader("Churn Overview")
+    if dataset is None:
+        st.warning("Processed data not found. Run `python src/data_prep.py` to unlock the dashboard charts.")
+    else:
+        churn_rate = (dataset["Churn"] == "Yes").mean()
+        avg_monthly = dataset["MonthlyCharges"].mean()
+        avg_tenure = dataset["tenure"].mean()
 
-with services_col:
-    st.markdown(
-        """
-        <div class="section-card">
-            <h3>Service Mix</h3>
-            <p>Connectivity, support, and add-on services that influence overall customer stickiness.</p>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-    phone_service = st.selectbox("Phone Service", ["Yes", "No"])
-    multiple_lines = st.selectbox("Multiple Lines", ["No", "Yes", "No phone service"])
-    internet_service = st.selectbox("Internet Service", ["DSL", "Fiber optic", "No"])
-    online_security = st.selectbox("Online Security", ["No", "Yes", "No internet service"])
-    online_backup = st.selectbox("Online Backup", ["No", "Yes", "No internet service"])
-    tech_support = st.selectbox("Tech Support", ["No", "Yes", "No internet service"])
+        metric_a, metric_b, metric_c = st.columns(3)
+        metric_a.metric("Churn Rate", f"{churn_rate:.1%}")
+        metric_b.metric("Avg Monthly Charges", f"${avg_monthly:.2f}")
+        metric_c.metric("Avg Tenure", f"{avg_tenure:.1f} months")
 
-with billing_col:
-    st.markdown(
-        """
-        <div class="section-card">
-            <h3>Billing and Plan</h3>
-            <p>Commercial details that are strongly correlated with cancellation patterns and renewal risk.</p>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-    device_protection = st.selectbox("Device Protection", ["No", "Yes", "No internet service"])
-    streaming_tv = st.selectbox("Streaming TV", ["No", "Yes", "No internet service"])
-    streaming_movies = st.selectbox("Streaming Movies", ["No", "Yes", "No internet service"])
-    contract = st.selectbox("Contract", ["Month-to-month", "One year", "Two year"])
-    paperless_billing = st.selectbox("Paperless Billing", ["Yes", "No"])
-    payment_method = st.selectbox(
-        "Payment Method",
-        [
-            "Electronic check",
-            "Mailed check",
-            "Bank transfer (automatic)",
-            "Credit card (automatic)",
-        ],
-    )
+        chart_col1, chart_col2 = st.columns(2, gap="large")
+        with chart_col1:
+            st.caption("Churn by contract type")
+            contract_view = pd.crosstab(dataset["Contract"], dataset["Churn"])
+            st.bar_chart(contract_view)
 
-metric_col1, metric_col2 = st.columns(2, gap="large")
-st.markdown('<div class="spacer-8"></div>', unsafe_allow_html=True)
-with metric_col1:
-    monthly_charges = st.number_input("Monthly Charges", min_value=0.0, value=70.0, step=1.0)
-with metric_col2:
-    total_charges = st.number_input("Total Charges", min_value=0.0, value=1000.0, step=10.0)
+        with chart_col2:
+            st.caption("Average monthly charges by churn status")
+            charges_view = (
+                dataset.groupby("Churn", as_index=False)["MonthlyCharges"].mean().set_index("Churn")
+            )
+            st.bar_chart(charges_view)
 
-predict_now = st.button("Predict Churn Risk")
+        chart_col3, chart_col4 = st.columns(2, gap="large")
+        with chart_col3:
+            st.caption("Churn by internet service")
+            internet_view = pd.crosstab(dataset["InternetService"], dataset["Churn"])
+            st.bar_chart(internet_view)
 
-if predict_now:
-    input_df = pd.DataFrame(
-        [
-            {
-                "gender": gender,
-                "SeniorCitizen": senior_citizen,
-                "Partner": partner,
-                "Dependents": dependents,
-                "tenure": tenure,
-                "PhoneService": phone_service,
-                "MultipleLines": multiple_lines,
-                "InternetService": internet_service,
-                "OnlineSecurity": online_security,
-                "OnlineBackup": online_backup,
-                "DeviceProtection": device_protection,
-                "TechSupport": tech_support,
-                "StreamingTV": streaming_tv,
-                "StreamingMovies": streaming_movies,
-                "Contract": contract,
-                "PaperlessBilling": paperless_billing,
-                "PaymentMethod": payment_method,
-                "MonthlyCharges": monthly_charges,
-                "TotalCharges": total_charges,
-            }
-        ]
-    )
+        with chart_col4:
+            st.caption("Average tenure by churn status")
+            tenure_view = dataset.groupby("Churn", as_index=False)["tenure"].mean().set_index("Churn")
+            st.bar_chart(tenure_view)
 
-    probability = float(model.predict_proba(input_df)[0][1])
-    tier, summary = risk_tier(probability)
-    prediction = int(model.predict(input_df)[0])
-    tier_class = (
-        "tier-high" if tier == "High Risk" else "tier-medium" if tier == "Medium Risk" else "tier-low"
-    )
+        st.caption("Snapshot of the processed churn dataset")
+        st.dataframe(dataset.head(10), use_container_width=True)
 
-    st.markdown(
-        f"""
-        <section class="result-shell">
-            <h2>Prediction Result</h2>
-            <p class="helper-copy">
-                This section translates the model output into a business-friendly readout that a support or retention team could act on.
-            </p>
-            <div class="result-grid">
-                <div class="result-card">
-                    <div class="result-label">Risk Tier</div>
-                    <p class="result-value {tier_class}">{tier}</p>
-                    <p class="helper-copy">{summary}</p>
-                </div>
-                <div class="result-card">
-                    <div class="result-label">Churn Probability</div>
-                    <p class="result-value">{probability:.1%}</p>
-                    <p class="helper-copy">Estimated probability that this customer may churn.</p>
-                </div>
-                <div class="result-card">
-                    <div class="result-label">Model Decision</div>
-                    <p class="result-value">{'Churn' if prediction == 1 else 'Stay'}</p>
-                    <p class="helper-copy">Binary prediction from the trained classifier.</p>
-                </div>
+with tab_predictor:
+    profile_col, services_col, billing_col = st.columns(3, gap="large")
+
+    with profile_col:
+        st.markdown(
+            """
+            <div class="section-card">
+                <h3>Customer Profile</h3>
+                <p>Basic demographics and relationship context that often shape churn behavior.</p>
             </div>
-        </section>
-        """,
-        unsafe_allow_html=True,
+            """,
+            unsafe_allow_html=True,
+        )
+        gender = st.selectbox("Gender", ["Female", "Male"])
+        senior_citizen = st.selectbox(
+            "Senior Citizen", [0, 1], format_func=lambda x: "Yes" if x == 1 else "No"
+        )
+        partner = st.selectbox("Partner", ["Yes", "No"])
+        dependents = st.selectbox("Dependents", ["Yes", "No"])
+        tenure = st.slider("Tenure (months)", 0, 72, 12)
+
+    with services_col:
+        st.markdown(
+            """
+            <div class="section-card">
+                <h3>Service Mix</h3>
+                <p>Connectivity, support, and add-on services that influence overall customer stickiness.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        phone_service = st.selectbox("Phone Service", ["Yes", "No"])
+        multiple_lines = st.selectbox("Multiple Lines", ["No", "Yes", "No phone service"])
+        internet_service = st.selectbox("Internet Service", ["DSL", "Fiber optic", "No"])
+        online_security = st.selectbox("Online Security", ["No", "Yes", "No internet service"])
+        online_backup = st.selectbox("Online Backup", ["No", "Yes", "No internet service"])
+        tech_support = st.selectbox("Tech Support", ["No", "Yes", "No internet service"])
+
+    with billing_col:
+        st.markdown(
+            """
+            <div class="section-card">
+                <h3>Billing and Plan</h3>
+                <p>Commercial details that are strongly correlated with cancellation patterns and renewal risk.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        device_protection = st.selectbox("Device Protection", ["No", "Yes", "No internet service"])
+        streaming_tv = st.selectbox("Streaming TV", ["No", "Yes", "No internet service"])
+        streaming_movies = st.selectbox("Streaming Movies", ["No", "Yes", "No internet service"])
+        contract = st.selectbox("Contract", ["Month-to-month", "One year", "Two year"])
+        paperless_billing = st.selectbox("Paperless Billing", ["Yes", "No"])
+        payment_method = st.selectbox(
+            "Payment Method",
+            [
+                "Electronic check",
+                "Mailed check",
+                "Bank transfer (automatic)",
+                "Credit card (automatic)",
+            ],
+        )
+
+    metric_col1, metric_col2 = st.columns(2, gap="large")
+    st.markdown('<div class="spacer-8"></div>', unsafe_allow_html=True)
+    with metric_col1:
+        monthly_charges = st.number_input("Monthly Charges", min_value=0.0, value=70.0, step=1.0)
+    with metric_col2:
+        total_charges = st.number_input("Total Charges", min_value=0.0, value=1000.0, step=10.0)
+
+    predict_now = st.button("Predict Churn Risk")
+
+    if predict_now:
+        input_df = pd.DataFrame(
+            [
+                {
+                    "gender": gender,
+                    "SeniorCitizen": senior_citizen,
+                    "Partner": partner,
+                    "Dependents": dependents,
+                    "tenure": tenure,
+                    "PhoneService": phone_service,
+                    "MultipleLines": multiple_lines,
+                    "InternetService": internet_service,
+                    "OnlineSecurity": online_security,
+                    "OnlineBackup": online_backup,
+                    "DeviceProtection": device_protection,
+                    "TechSupport": tech_support,
+                    "StreamingTV": streaming_tv,
+                    "StreamingMovies": streaming_movies,
+                    "Contract": contract,
+                    "PaperlessBilling": paperless_billing,
+                    "PaymentMethod": payment_method,
+                    "MonthlyCharges": monthly_charges,
+                    "TotalCharges": total_charges,
+                }
+            ]
+        )
+
+        probability = float(model.predict_proba(input_df)[0][1])
+        tier, summary = risk_tier(probability)
+        prediction = int(model.predict(input_df)[0])
+        tier_class = (
+            "tier-high" if tier == "High Risk" else "tier-medium" if tier == "Medium Risk" else "tier-low"
+        )
+
+        st.markdown(
+            f"""
+            <section class="result-shell">
+                <h2>Prediction Result</h2>
+                <p class="helper-copy">
+                    This section translates the model output into a business-friendly readout that a support or retention team could act on.
+                </p>
+                <div class="result-grid">
+                    <div class="result-card">
+                        <div class="result-label">Risk Tier</div>
+                        <p class="result-value {tier_class}">{tier}</p>
+                        <p class="helper-copy">{summary}</p>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-label">Churn Probability</div>
+                        <p class="result-value">{probability:.1%}</p>
+                        <p class="helper-copy">Estimated probability that this customer may churn.</p>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-label">Model Decision</div>
+                        <p class="result-value">{'Churn' if prediction == 1 else 'Stay'}</p>
+                        <p class="helper-copy">Binary prediction from the trained classifier.</p>
+                    </div>
+                </div>
+            </section>
+            """,
+            unsafe_allow_html=True,
+        )
+
+with tab_model:
+    st.subheader("Feature Importance")
+    st.caption("Top drivers from the logistic regression baseline, ranked by absolute coefficient magnitude.")
+
+    top_features = importance_df.head(12).copy()
+    top_features["signed impact"] = top_features["coefficient"]
+    feature_chart = top_features.set_index("feature")[["signed impact"]]
+    st.bar_chart(feature_chart)
+
+    st.dataframe(
+        top_features[["feature", "coefficient", "impact"]],
+        use_container_width=True,
+        hide_index=True,
     )
