@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f4dfc7"/>
+      <stop offset="1" stop-color="#c8d5b9"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="url(#bg)"/>
+  <circle cx="190" cy="130" r="70" fill="#ffffff" opacity=".28"/>
+  <circle cx="560" cy="360" r="120" fill="#ffffff" opacity=".18"/>
+  <g transform="translate(255 68)">
+    <path d="M104 50h66l56 58-42 42-20-23v232H110V127l-20 23-42-42z" fill="#f7f1e9" stroke="#3a2f28" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M110 212h54v150H99z" fill="#355c7d" stroke="#3a2f28" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M164 212h54l11 150h-65z" fill="#2e4e6b" stroke="#3a2f28" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M84 378h80v25H62c0-14 10-25 22-25z" fill="#ffffff" stroke="#3a2f28" stroke-width="8"/>
+    <path d="M164 378h80c12 0 22 11 22 25H164z" fill="#ffffff" stroke="#3a2f28" stroke-width="8"/>
+    <path d="M120 46c18 25 45 25 64 0" fill="none" stroke="#3a2f28" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <text x="54" y="418" fill="#3a2f28" font-family="Georgia, serif" font-size="46" font-weight="700">Casual</text>
+  <text x="54" y="450" fill="#735f54" font-family="Georgia, serif" font-size="22">tee, denim, sneakers</text>
+</svg>

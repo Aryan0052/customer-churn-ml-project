@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d9e3df"/>
+      <stop offset="1" stop-color="#f6efe6"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="url(#bg)"/>
+  <g fill="none" stroke="#2f241f" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M166 210c0-58 48-106 108-106s108 48 108 106"/>
+    <path d="M166 210h216l-30 150H196z"/>
+    <path d="M460 126h92l42 74-32 22-18-32v164h-76V190l-18 32-32-22z"/>
+    <path d="M470 354h86"/>
+    <circle cx="232" cy="294" r="26"/>
+    <circle cx="314" cy="294" r="26"/>
+  </g>
+  <path d="M202 234h146l-20 92H220z" fill="#c46a3a" opacity=".8"/>
+  <path d="M468 128h86v226h-86z" fill="#263629" opacity=".86"/>
+  <text x="54" y="418" fill="#3a2f28" font-family="Georgia, serif" font-size="46" font-weight="700">Accessories</text>
+  <text x="54" y="450" fill="#735f54" font-family="Georgia, serif" font-size="22">bag, jacket, finishing details</text>
+</svg>

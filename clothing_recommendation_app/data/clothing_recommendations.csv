@@ -1,0 +1,487 @@
+height,skin_tone,body_type,gender,style_preference,fit_recommendation,top_recommendation,color_recommendation,extra_recommendation
+short,fair,slim,male,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",low-contrast sneakers and shorter outerwear
+short,fair,slim,male,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+short,fair,slim,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,slim,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,slim,male,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,slim,male,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,slim,female,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",low-contrast sneakers and shorter outerwear
+short,fair,slim,female,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+short,fair,slim,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,slim,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,slim,female,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,slim,female,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,slim,unisex,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",low-contrast sneakers and shorter outerwear
+short,fair,slim,unisex,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+short,fair,slim,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,slim,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,slim,unisex,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,slim,unisex,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,athletic,male,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",low-contrast sneakers and shorter outerwear
+short,fair,athletic,male,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+short,fair,athletic,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,athletic,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,athletic,male,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,athletic,male,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,athletic,female,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",low-contrast sneakers and shorter outerwear
+short,fair,athletic,female,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+short,fair,athletic,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,athletic,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,athletic,female,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,athletic,female,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,athletic,unisex,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",low-contrast sneakers and shorter outerwear
+short,fair,athletic,unisex,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+short,fair,athletic,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,athletic,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,athletic,unisex,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,athletic,unisex,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,heavy,male,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",low-contrast sneakers and shorter outerwear
+short,fair,heavy,male,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+short,fair,heavy,male,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,heavy,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,heavy,male,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,heavy,male,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,heavy,female,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",low-contrast sneakers and shorter outerwear
+short,fair,heavy,female,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+short,fair,heavy,female,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,heavy,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,heavy,female,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,heavy,female,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,heavy,unisex,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",low-contrast sneakers and shorter outerwear
+short,fair,heavy,unisex,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+short,fair,heavy,unisex,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,heavy,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,fair,heavy,unisex,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,fair,heavy,unisex,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,slim,male,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",low-contrast sneakers and shorter outerwear
+short,medium,slim,male,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+short,medium,slim,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,slim,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,slim,male,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,slim,male,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,slim,female,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",low-contrast sneakers and shorter outerwear
+short,medium,slim,female,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+short,medium,slim,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,slim,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,slim,female,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,slim,female,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,slim,unisex,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",low-contrast sneakers and shorter outerwear
+short,medium,slim,unisex,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+short,medium,slim,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,slim,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,slim,unisex,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,slim,unisex,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,athletic,male,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",low-contrast sneakers and shorter outerwear
+short,medium,athletic,male,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+short,medium,athletic,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,athletic,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,athletic,male,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,athletic,male,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,athletic,female,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",low-contrast sneakers and shorter outerwear
+short,medium,athletic,female,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+short,medium,athletic,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,athletic,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,athletic,female,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,athletic,female,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,athletic,unisex,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",low-contrast sneakers and shorter outerwear
+short,medium,athletic,unisex,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+short,medium,athletic,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,athletic,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,athletic,unisex,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,athletic,unisex,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,heavy,male,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",low-contrast sneakers and shorter outerwear
+short,medium,heavy,male,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+short,medium,heavy,male,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,heavy,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,heavy,male,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,heavy,male,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,heavy,female,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",low-contrast sneakers and shorter outerwear
+short,medium,heavy,female,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+short,medium,heavy,female,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,heavy,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,heavy,female,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,heavy,female,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,heavy,unisex,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",low-contrast sneakers and shorter outerwear
+short,medium,heavy,unisex,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+short,medium,heavy,unisex,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,heavy,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,medium,heavy,unisex,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,medium,heavy,unisex,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,slim,male,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",low-contrast sneakers and shorter outerwear
+short,dark,slim,male,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+short,dark,slim,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,slim,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,slim,male,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,slim,male,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,slim,female,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",low-contrast sneakers and shorter outerwear
+short,dark,slim,female,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+short,dark,slim,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,slim,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,slim,female,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,slim,female,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,slim,unisex,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",low-contrast sneakers and shorter outerwear
+short,dark,slim,unisex,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+short,dark,slim,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,slim,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,slim,unisex,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,slim,unisex,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,athletic,male,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",low-contrast sneakers and shorter outerwear
+short,dark,athletic,male,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+short,dark,athletic,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,athletic,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,athletic,male,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,athletic,male,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,athletic,female,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",low-contrast sneakers and shorter outerwear
+short,dark,athletic,female,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+short,dark,athletic,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,athletic,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,athletic,female,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,athletic,female,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,athletic,unisex,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",low-contrast sneakers and shorter outerwear
+short,dark,athletic,unisex,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+short,dark,athletic,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,athletic,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,athletic,unisex,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,athletic,unisex,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,heavy,male,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",low-contrast sneakers and shorter outerwear
+short,dark,heavy,male,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+short,dark,heavy,male,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,heavy,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,heavy,male,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,heavy,male,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,heavy,female,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",low-contrast sneakers and shorter outerwear
+short,dark,heavy,female,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+short,dark,heavy,female,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,heavy,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,heavy,female,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,heavy,female,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,heavy,unisex,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",low-contrast sneakers and shorter outerwear
+short,dark,heavy,unisex,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+short,dark,heavy,unisex,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,heavy,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",low-contrast sneakers and shorter outerwear
+short,dark,heavy,unisex,streetwear,cropped jacket with tapered joggers,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+short,dark,heavy,unisex,streetwear,cropped jacket with tapered joggers,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",low-contrast sneakers and shorter outerwear
+average,fair,slim,male,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",minimal accessories and classic sneakers
+average,fair,slim,male,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+average,fair,slim,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,fair,slim,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,fair,slim,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,fair,slim,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,fair,slim,female,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",structured accessories and clean footwear
+average,fair,slim,female,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+average,fair,slim,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",structured accessories and clean footwear
+average,fair,slim,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",structured accessories and clean footwear
+average,fair,slim,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",structured accessories and clean footwear
+average,fair,slim,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",structured accessories and clean footwear
+average,fair,slim,unisex,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",minimal accessories and classic sneakers
+average,fair,slim,unisex,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+average,fair,slim,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,fair,slim,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,fair,slim,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,fair,slim,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,fair,athletic,male,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",minimal accessories and classic sneakers
+average,fair,athletic,male,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+average,fair,athletic,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,fair,athletic,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,fair,athletic,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,fair,athletic,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,fair,athletic,female,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",structured accessories and clean footwear
+average,fair,athletic,female,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+average,fair,athletic,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",structured accessories and clean footwear
+average,fair,athletic,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",structured accessories and clean footwear
+average,fair,athletic,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",structured accessories and clean footwear
+average,fair,athletic,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",structured accessories and clean footwear
+average,fair,athletic,unisex,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",minimal accessories and classic sneakers
+average,fair,athletic,unisex,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+average,fair,athletic,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,fair,athletic,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,fair,athletic,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,fair,athletic,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,fair,heavy,male,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",vertical patterns and open layers
+average,fair,heavy,male,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+average,fair,heavy,male,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,fair,heavy,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,fair,heavy,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",vertical patterns and open layers
+average,fair,heavy,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",vertical patterns and open layers
+average,fair,heavy,female,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",vertical patterns and open layers
+average,fair,heavy,female,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+average,fair,heavy,female,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,fair,heavy,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,fair,heavy,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",vertical patterns and open layers
+average,fair,heavy,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",vertical patterns and open layers
+average,fair,heavy,unisex,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",vertical patterns and open layers
+average,fair,heavy,unisex,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+average,fair,heavy,unisex,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,fair,heavy,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,fair,heavy,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",vertical patterns and open layers
+average,fair,heavy,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",vertical patterns and open layers
+average,medium,slim,male,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",minimal accessories and classic sneakers
+average,medium,slim,male,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+average,medium,slim,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,medium,slim,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,medium,slim,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,medium,slim,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,medium,slim,female,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",structured accessories and clean footwear
+average,medium,slim,female,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+average,medium,slim,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",structured accessories and clean footwear
+average,medium,slim,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",structured accessories and clean footwear
+average,medium,slim,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",structured accessories and clean footwear
+average,medium,slim,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",structured accessories and clean footwear
+average,medium,slim,unisex,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",minimal accessories and classic sneakers
+average,medium,slim,unisex,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+average,medium,slim,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,medium,slim,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,medium,slim,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,medium,slim,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,medium,athletic,male,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",minimal accessories and classic sneakers
+average,medium,athletic,male,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+average,medium,athletic,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,medium,athletic,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,medium,athletic,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,medium,athletic,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,medium,athletic,female,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",structured accessories and clean footwear
+average,medium,athletic,female,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+average,medium,athletic,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",structured accessories and clean footwear
+average,medium,athletic,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",structured accessories and clean footwear
+average,medium,athletic,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",structured accessories and clean footwear
+average,medium,athletic,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",structured accessories and clean footwear
+average,medium,athletic,unisex,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",minimal accessories and classic sneakers
+average,medium,athletic,unisex,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+average,medium,athletic,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,medium,athletic,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,medium,athletic,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,medium,athletic,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,medium,heavy,male,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",vertical patterns and open layers
+average,medium,heavy,male,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+average,medium,heavy,male,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,medium,heavy,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,medium,heavy,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",vertical patterns and open layers
+average,medium,heavy,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",vertical patterns and open layers
+average,medium,heavy,female,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",vertical patterns and open layers
+average,medium,heavy,female,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+average,medium,heavy,female,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,medium,heavy,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,medium,heavy,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",vertical patterns and open layers
+average,medium,heavy,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",vertical patterns and open layers
+average,medium,heavy,unisex,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",vertical patterns and open layers
+average,medium,heavy,unisex,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+average,medium,heavy,unisex,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,medium,heavy,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,medium,heavy,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",vertical patterns and open layers
+average,medium,heavy,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",vertical patterns and open layers
+average,dark,slim,male,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",minimal accessories and classic sneakers
+average,dark,slim,male,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+average,dark,slim,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,dark,slim,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,dark,slim,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,dark,slim,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,dark,slim,female,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",structured accessories and clean footwear
+average,dark,slim,female,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+average,dark,slim,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",structured accessories and clean footwear
+average,dark,slim,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",structured accessories and clean footwear
+average,dark,slim,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",structured accessories and clean footwear
+average,dark,slim,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",structured accessories and clean footwear
+average,dark,slim,unisex,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",minimal accessories and classic sneakers
+average,dark,slim,unisex,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+average,dark,slim,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,dark,slim,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,dark,slim,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,dark,slim,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,dark,athletic,male,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",minimal accessories and classic sneakers
+average,dark,athletic,male,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+average,dark,athletic,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,dark,athletic,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,dark,athletic,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,dark,athletic,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,dark,athletic,female,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",structured accessories and clean footwear
+average,dark,athletic,female,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+average,dark,athletic,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",structured accessories and clean footwear
+average,dark,athletic,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",structured accessories and clean footwear
+average,dark,athletic,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",structured accessories and clean footwear
+average,dark,athletic,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",structured accessories and clean footwear
+average,dark,athletic,unisex,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",minimal accessories and classic sneakers
+average,dark,athletic,unisex,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+average,dark,athletic,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,dark,athletic,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",minimal accessories and classic sneakers
+average,dark,athletic,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,dark,athletic,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",minimal accessories and classic sneakers
+average,dark,heavy,male,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",vertical patterns and open layers
+average,dark,heavy,male,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+average,dark,heavy,male,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,dark,heavy,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,dark,heavy,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",vertical patterns and open layers
+average,dark,heavy,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",vertical patterns and open layers
+average,dark,heavy,female,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",vertical patterns and open layers
+average,dark,heavy,female,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+average,dark,heavy,female,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,dark,heavy,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,dark,heavy,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",vertical patterns and open layers
+average,dark,heavy,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",vertical patterns and open layers
+average,dark,heavy,unisex,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",vertical patterns and open layers
+average,dark,heavy,unisex,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+average,dark,heavy,unisex,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,dark,heavy,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",vertical patterns and open layers
+average,dark,heavy,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",vertical patterns and open layers
+average,dark,heavy,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",vertical patterns and open layers
+tall,fair,slim,male,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",layered outerwear and wide-leg options
+tall,fair,slim,male,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+tall,fair,slim,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,slim,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,slim,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,slim,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,slim,female,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",layered outerwear and wide-leg options
+tall,fair,slim,female,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+tall,fair,slim,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,slim,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,slim,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,slim,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,slim,unisex,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",layered outerwear and wide-leg options
+tall,fair,slim,unisex,casual,slim fit jeans with a clean silhouette,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+tall,fair,slim,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,slim,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,slim,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,slim,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,athletic,male,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",layered outerwear and wide-leg options
+tall,fair,athletic,male,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+tall,fair,athletic,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,athletic,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,athletic,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,athletic,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,athletic,female,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",layered outerwear and wide-leg options
+tall,fair,athletic,female,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+tall,fair,athletic,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,athletic,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,athletic,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,athletic,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,athletic,unisex,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",layered outerwear and wide-leg options
+tall,fair,athletic,unisex,casual,athletic taper chinos with fitted basics,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+tall,fair,athletic,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,athletic,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,athletic,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,athletic,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,heavy,male,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",layered outerwear and wide-leg options
+tall,fair,heavy,male,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+tall,fair,heavy,male,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,heavy,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,heavy,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,heavy,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,heavy,female,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",layered outerwear and wide-leg options
+tall,fair,heavy,female,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+tall,fair,heavy,female,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,heavy,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,heavy,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,heavy,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,heavy,unisex,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",layered outerwear and wide-leg options
+tall,fair,heavy,unisex,casual,relaxed fit jeans with a balanced drape,earth-tone polo or knit top,"olive, rust, and soft blue",clean sneakers and simple layering pieces
+tall,fair,heavy,unisex,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,heavy,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,fair,heavy,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,fair,heavy,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,slim,male,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",layered outerwear and wide-leg options
+tall,medium,slim,male,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+tall,medium,slim,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,slim,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,slim,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,slim,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,slim,female,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",layered outerwear and wide-leg options
+tall,medium,slim,female,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+tall,medium,slim,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,slim,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,slim,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,slim,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,slim,unisex,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",layered outerwear and wide-leg options
+tall,medium,slim,unisex,casual,slim fit jeans with a clean silhouette,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+tall,medium,slim,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,slim,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,slim,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,slim,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,athletic,male,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",layered outerwear and wide-leg options
+tall,medium,athletic,male,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+tall,medium,athletic,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,athletic,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,athletic,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,athletic,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,athletic,female,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",layered outerwear and wide-leg options
+tall,medium,athletic,female,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+tall,medium,athletic,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,athletic,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,athletic,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,athletic,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,athletic,unisex,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",layered outerwear and wide-leg options
+tall,medium,athletic,unisex,casual,athletic taper chinos with fitted basics,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+tall,medium,athletic,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,athletic,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,athletic,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,athletic,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,heavy,male,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",layered outerwear and wide-leg options
+tall,medium,heavy,male,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+tall,medium,heavy,male,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,heavy,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,heavy,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,heavy,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,heavy,female,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",layered outerwear and wide-leg options
+tall,medium,heavy,female,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+tall,medium,heavy,female,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,heavy,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,heavy,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,heavy,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,heavy,unisex,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",layered outerwear and wide-leg options
+tall,medium,heavy,unisex,casual,relaxed fit jeans with a balanced drape,rich jewel-tone shirt or tee,"emerald, burgundy, and cream",clean sneakers and simple layering pieces
+tall,medium,heavy,unisex,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,heavy,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,medium,heavy,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,medium,heavy,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,slim,male,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",layered outerwear and wide-leg options
+tall,dark,slim,male,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+tall,dark,slim,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,slim,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,slim,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,slim,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,slim,female,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",layered outerwear and wide-leg options
+tall,dark,slim,female,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+tall,dark,slim,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,slim,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,slim,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,slim,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,slim,unisex,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",layered outerwear and wide-leg options
+tall,dark,slim,unisex,casual,slim fit jeans with a clean silhouette,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+tall,dark,slim,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,slim,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,slim,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,slim,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,athletic,male,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",layered outerwear and wide-leg options
+tall,dark,athletic,male,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+tall,dark,athletic,male,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,athletic,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,athletic,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,athletic,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,athletic,female,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",layered outerwear and wide-leg options
+tall,dark,athletic,female,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+tall,dark,athletic,female,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,athletic,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,athletic,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,athletic,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,athletic,unisex,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",layered outerwear and wide-leg options
+tall,dark,athletic,unisex,casual,athletic taper chinos with fitted basics,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+tall,dark,athletic,unisex,formal,tailored blazer and straight-fit trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,athletic,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,athletic,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,athletic,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,heavy,male,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",layered outerwear and wide-leg options
+tall,dark,heavy,male,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+tall,dark,heavy,male,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,heavy,male,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,heavy,male,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,heavy,male,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,heavy,female,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",layered outerwear and wide-leg options
+tall,dark,heavy,female,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+tall,dark,heavy,female,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,heavy,female,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,heavy,female,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,heavy,female,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,heavy,unisex,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",layered outerwear and wide-leg options
+tall,dark,heavy,unisex,casual,relaxed fit jeans with a balanced drape,crisp pastel tee or textured overshirt,"mustard, lavender, and sky blue",clean sneakers and simple layering pieces
+tall,dark,heavy,unisex,formal,structured blazer and relaxed trousers,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,heavy,unisex,formal,smart tailored separates with neat proportions,button-down shirt with a lightweight blazer,"navy, charcoal, and white",layered outerwear and wide-leg options
+tall,dark,heavy,unisex,streetwear,oversized layers with relaxed-fit pants,oversized t-shirt with a statement jacket,"black, olive, and muted accent colors",layered outerwear and wide-leg options
+tall,dark,heavy,unisex,streetwear,oversized layers with relaxed-fit pants,graphic tee with a roomy overshirt,"black, olive, and muted accent colors",layered outerwear and wide-leg options

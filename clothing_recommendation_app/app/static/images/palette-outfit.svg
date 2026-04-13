@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7f1e9"/>
+      <stop offset="1" stop-color="#e1c3a7"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="url(#bg)"/>
+  <g transform="translate(122 96)">
+    <circle cx="72" cy="72" r="72" fill="#263629"/>
+    <circle cx="218" cy="72" r="72" fill="#c46a3a"/>
+    <circle cx="364" cy="72" r="72" fill="#f4dfc7"/>
+    <circle cx="145" cy="214" r="72" fill="#355c7d"/>
+    <circle cx="291" cy="214" r="72" fill="#8d4a25"/>
+    <path d="M120 72h318" stroke="#2f241f" stroke-width="6" opacity=".14"/>
+    <path d="M192 142l78 72" stroke="#2f241f" stroke-width="6" opacity=".14"/>
+  </g>
+  <text x="54" y="418" fill="#3a2f28" font-family="Georgia, serif" font-size="46" font-weight="700">Color Match</text>
+  <text x="54" y="450" fill="#735f54" font-family="Georgia, serif" font-size="22">palette and contrast guide</text>
+</svg>

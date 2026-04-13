@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e8e1d5"/>
+      <stop offset="1" stop-color="#9aa7bd"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="url(#bg)"/>
+  <rect x="72" y="54" width="576" height="372" rx="44" fill="#ffffff" opacity=".18"/>
+  <g transform="translate(250 56)">
+    <path d="M80 55h112l48 72-36 34-21-30v235H89V131l-21 30-36-34z" fill="#263629" stroke="#1f2a24" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M118 56h36l20 174h-76z" fill="#f8f5ee" stroke="#1f2a24" stroke-width="6"/>
+    <path d="M129 76h20l16 64-26 36-26-36z" fill="#9b3d2e"/>
+    <path d="M89 230h48v138H77z" fill="#1e2723" stroke="#1f2a24" stroke-width="8"/>
+    <path d="M137 230h48l12 138h-60z" fill="#18201d" stroke="#1f2a24" stroke-width="8"/>
+    <path d="M60 382h80v22H38c0-12 10-22 22-22z" fill="#2b1f1a" stroke="#1f2a24" stroke-width="7"/>
+    <path d="M137 382h80c12 0 22 10 22 22H137z" fill="#2b1f1a" stroke="#1f2a24" stroke-width="7"/>
+  </g>
+  <text x="54" y="418" fill="#2f241f" font-family="Georgia, serif" font-size="46" font-weight="700">Formal</text>
+  <text x="54" y="450" fill="#4d4540" font-family="Georgia, serif" font-size="22">blazer, shirt, trousers</text>
+</svg>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StyleMatch AI</title>
+    <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+    <main class="page-shell">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Clothing Recommendation Website</p>
+                <h1>Find outfit ideas that match your body profile and personal style.</h1>
+                <p class="hero-text">
+                    Enter your profile, occasion, budget, and weather to get machine learning based outfit suggestions with explanations.
+                </p>
+            </div>
+            <div class="hero-panel">
+                <form id="recommendation-form" class="recommendation-form">
+                    <label>
+                        Height
+                        <select name="height" required>
+                            <option value="short">Short</option>
+                            <option value="average" selected>Average</option>
+                            <option value="tall">Tall</option>
+                        </select>
+                    </label>
+                    <label>
+                        Skin Tone
+                        <select name="skin_tone" required>
+                            <option value="fair">Fair</option>
+                            <option value="medium" selected>Medium</option>
+                            <option value="dark">Dark</option>
+                        </select>
+                    </label>
+                    <label>
+                        Body Type
+                        <select name="body_type" required>
+                            <option value="slim">Slim</option>
+                            <option value="athletic" selected>Athletic</option>
+                            <option value="heavy">Heavy</option>
+                        </select>
+                    </label>
+                    <label>
+                        Gender
+                        <select name="gender" required>
+                            <option value="male" selected>Male</option>
+                            <option value="female">Female</option>
+                            <option value="unisex">Unisex</option>
+                        </select>
+                    </label>
+                    <label>
+                        Style Preference
+                        <select name="style_preference" required>
+                            <option value="casual" selected>Casual</option>
+                            <option value="formal">Formal</option>
+                            <option value="streetwear">Streetwear</option>
+                        </select>
+                    </label>
+                    <label>
+                        Occasion
+                        <select name="occasion">
+                            <option value="everyday" selected>Everyday</option>
+                            <option value="office">Office</option>
+                            <option value="party">Party</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="date">Date</option>
+                            <option value="college">College</option>
+                            <option value="travel">Travel</option>
+                            <option value="gym">Gym</option>
+                        </select>
+                    </label>
+                    <label>
+                        Weather
+                        <select name="weather">
+                            <option value="mild" selected>Mild</option>
+                            <option value="hot">Hot</option>
+                            <option value="cold">Cold</option>
+                            <option value="rainy">Rainy</option>
+                        </select>
+                    </label>
+                    <label>
+                        Season
+                        <select name="season">
+                            <option value="all-season" selected>All Season</option>
+                            <option value="summer">Summer</option>
+                            <option value="winter">Winter</option>
+                            <option value="monsoon">Monsoon</option>
+                        </select>
+                    </label>
+                    <label>
+                        Budget
+                        <select name="budget">
+                            <option value="budget">Budget</option>
+                            <option value="mid-range" selected>Mid Range</option>
+                            <option value="premium">Premium</option>
+                        </select>
+                    </label>
+                    <label>
+                        Color Goal
+                        <select name="color_goal">
+                            <option value="subtle">Subtle</option>
+                            <option value="balanced" selected>Balanced</option>
+                            <option value="bold">Bold</option>
+                            <option value="monochrome">Monochrome</option>
+                            <option value="colorful">Colorful</option>
+                        </select>
+                    </label>
+                    <button type="submit">Get Recommendations</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="upload-section">
+            <div>
+                <p class="eyebrow">New Image Styling Mode</p>
+                <h2>Upload a picture for visual styling suggestions.</h2>
+                <p>
+                    The app analyzes image colors, brightness, and contrast, then suggests outfit colors,
+                    balance, textures, and accessories. It does not guess body type or skin tone from the image.
+                </p>
+            </div>
+            <form id="image-form" class="image-form">
+                <label class="upload-box">
+                    <span>Choose a picture</span>
+                    <input id="image-input" type="file" name="file" accept="image/*" required />
+                </label>
+                <img id="image-preview" class="image-preview" alt="Uploaded preview" />
+                <button type="submit">Analyze Picture</button>
+            </form>
+        </section>
+
+        <section class="results-section">
+            <div class="results-header">
+                <h2>Recommended Outfits</h2>
+                <p id="status-text">Your recommendations will appear here.</p>
+            </div>
+            <div id="results-grid" class="results-grid"></div>
+        </section>
+
+        <section class="results-section">
+            <div class="results-header">
+                <h2>Image-Based Styling</h2>
+                <p id="image-status-text">Upload a picture to see styling ideas.</p>
+            </div>
+            <div id="image-insights" class="image-insights"></div>
+            <div id="image-results-grid" class="results-grid"></div>
+        </section>
+    </main>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
